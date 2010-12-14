@@ -89,6 +89,9 @@
         <item>Definition of Open\n
         repo init -u git://android.git.kernel.org/platform/manifest.git ; repo sync ; make. @drawable/android_open </item>
 
+        <!-- Tip: A tribute to cyanogen's cat -->
+        <item>Catroast\n
+        Always catproof your electronics, cats are bound to pee on them.</item>
 
     </string-array>
 </resources>
