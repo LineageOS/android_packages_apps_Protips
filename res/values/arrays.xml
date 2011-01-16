@@ -90,6 +90,10 @@
         <item>Done with this widget?\n
         Touch &amp; hold it and when it vibrates, drag it to the Trash icon.</item>
 
+        <!-- Tip: A tribute to Cyanogen's cat -->
+        <item>Catroast\n
+        Always catproof your electronics, cats are bound to pee on them. @drawable/cat_attack</item>
+
     </string-array>
     
     <!-- dial *#*#TIPS#*#* -->
