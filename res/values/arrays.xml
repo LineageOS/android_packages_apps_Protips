@@ -48,6 +48,10 @@
         <item>Drag apps to your Home screen.\n
         Touch &amp; hold an app in the Launcher until it vibrates.</item>
 
+	<!-- Tip: blameciwrl -->
+	<item>#blameciwrl\n
+	Blame ciwrl, but remember to pronounce it "swirl". @drawable/ciwrl</item>
+
         <!-- Tip: Longpress to move icons/widgets around. -->
         <item>Rearrange your Home screen.\n
         Touch &amp; hold an item and when it vibrates, drag it where you want.</item>
