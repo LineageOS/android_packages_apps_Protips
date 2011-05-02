@@ -81,6 +81,10 @@
         <item>Kang [kayng] - (verb)\n
         Upgraded my winzip br0. Thanks to my patient lady putting up with my devvin. @drawable/kang_truck</item>
 
+        <!-- Tip: Typical kanger. -->
+        <item>A typical kanger:\n
+        "I have teh cherry-pickzz!!1" @drawable/typical_kanger</item>
+
         <!-- Tip: The Definition of Open. -->
         <item>Definition of Open\n
         repo init -u git://android.git.kernel.org/platform/manifest.git ; repo sync ; make. @drawable/android_open </item>

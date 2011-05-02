@@ -40,6 +40,10 @@
     <!-- Tip: Find out what it means to kang. -->
     <item>Kang [kayng] - (verb)\n
     Upgraded my winzip br0. Thanks to my patient lady putting up with my devvin. @drawable/kang_truck</item>
+    <!-- Tip: Typical kanger. -->
+    <item>Ein typischer Kanger:\n
+    "I have teh cherry-pickzz!!1" @drawable/typical_kanger</item>
+
     <item msgid="424487960942281801">"Dieses Widget entfernen?"\n" Berühren &amp; halten Sie es. Sobald es vibriert, ziehen Sie es in den Papierkorb."</item>
   </string-array>
 </resources>
