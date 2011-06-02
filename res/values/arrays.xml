@@ -89,6 +89,10 @@
         <item>Catroast\n
         Always catproof your electronics, cats are bound to pee on them. @drawable/cat_attack</item>
 
+        <!-- Tip: Why X does not work -->
+        <item>Why is X like Y instead of Z?\n
+        Because Samsung.</item>
+
         <!-- Tip: Reminder about how to delete widgets, reinforcing that this
              technique can be used to remove the tips widget iteself. -->
         <item>Done with this widget?\n
