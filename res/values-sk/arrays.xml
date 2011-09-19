@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- Set of tips to show the user.
+
+         First line is the tip title, which is shown in bold on its own line.
+
+         All subsequent text is placed into the tip body.
+
+         The occurrence of @drawable/foo causes the bitmap drawable named "foo"
+         to be displayed to the right of the tip text.
+
+         Example for tip #1:
+          _____________________________________________     \_/
+         |                                             |   /._.\
+         |  See all your apps.         [all_apps.png]   > U|   |U
+         |  Touch the Launcher icon.                   |   |___|
+         |_____________________________________________|    U U
+    -->
+    <string-array name="tips">
+        <!-- Tip: Where the launcher icon is and what it does. With icon. -->
+        <item>Pozrite si všetky Vaše aplikácie.\n
+        Stlačte ikonu Spúšťača. @drawable/all_apps</item>
+
+        <!-- Tip: How to survive in CyanogenMod. -->
+        <item>Pravidlá\n
+        Jediné pravidlo CyanogenModu: Nepýtate sa čas ďalšej verzie.</item>
+
+  <!-- Tip: How to get nightly builds. -->
+<item>Nočné Verzie (Pokročilé)\n
+	 Dostupné cez ROM Manager. Nehláste chyby týchto verzií do Google Code. @drawable/rommanager</item>
+
+        <!-- Tip: Longpress in Launcher (all apps) to drag apps to the home screen. -->
+        <item>Pretiahnite si aplikácie na Domácu plochu.\n
+        Stlačte &amp; držte aplikáciu v spúšťači pokiaľ nezavibruje.</item>
+	
+	<!-- Tip: DrKmobs -->
+	<item>Neverte Dr Kmobs\n
+	Nie je skutočný doktor a to nie je teplomer. @drawable/stethoscope</item>
+
+        <!-- Tip: Longpress to move icons/widgets around. -->
+        <item>Popreskupujte si svoje Domácu plochu.\n
+        Stlačte &amp; podržte položku a keď zavibruje presuňte ju kam si prajete.</item>
+
+        <!-- Tip: Teach them how to become better programmers -->
+        <item>Ballmer Peak\n
+        Optimálne programovanie nastáva keď máte medzi .129 a .138. promile.</item>
+
+        <!-- Tip: Longpress icons/widgets and drag to trash to remove them. -->
+        <item>Odstráňte položky.\n
+        Stlačte &amp; podržte položku a keď zavibruje, potiahnite ju to Koša. @drawable/trash</item>
+
+        <!-- Tip: Explain what is wrong with the iPhone. -->
+        <item>iPhone\n
+        Držíte ho zle. Vždy.</item>
+
+        <!-- Tip: Swipe to switch workspaces; drag items to move them to other
+             workspaces. -->
+        <item>Viaceré Domáce obrazovky.\n
+        Potiahnite doľava, alebo doprava pre prepnutie. Presuňte položky na iné obrazovky.</item>
+
+        <!-- Tip: Winzip must be kept up to date. -->
+        <item>Priorita číslo 1\n
+        Nezabudnite udržiavať WinZip aktualizovaný.</item>
+
+        <!-- Tip: Find out what it means to kang. -->
+        <item>Kang [kayng] - (sloveso)\n
+        Upgradoval som môj winzip kámo. Vďaka mojej trpezlivej priateľke že zostala so mnou devvin. @drawable/kang_truck</item>
+
+        <!-- Tip: The Definition of Open. -->
+        <item>Definícia Otvoreného\n
+        repo init -u git://android.git.kernel.org/platform/manifest.git ; repo sync ; make. @drawable/android_open </item>
+
+        <!-- Tip: A tribute to Cyanogen's cat -->
+        <item>Catroast\n
+        Vždy ochráňte svoje elektrické zariadenia pred mačkami, zvyknú na ne močiť. @drawable/cat_attack</item>
+
+        <!-- Tip: Reminder about how to delete widgets, reinforcing that this
+             technique can be used to remove the tips widget iteself. -->
+        <item>Hotovo s týmto widgetom?\n
+        Stlačte &amp; podržte ho a keď zavibruje, presuňte ho na ikonu koša.</item>
+
+    </string-array>
+    <!-- dial *#*#TIPS#*#* -->
+    <!-- do not translate -->
+</resources>
