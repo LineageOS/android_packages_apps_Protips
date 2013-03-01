@@ -33,6 +33,24 @@
       "revId": "e0cfe1d09de3a91bb9e7b67345666caf88d43517",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//5sk\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 5765
+      },
+      "writtenOn": "2013-03-01T16:59:19Z",
+      "side": 1,
+      "message": "No ideas ?",
+      "parentUuid": "AAAAdX//5vo\u003d",
+      "revId": "e0cfe1d09de3a91bb9e7b67345666caf88d43517",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
