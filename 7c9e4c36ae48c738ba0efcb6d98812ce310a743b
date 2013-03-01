@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdX//5sA\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 5765
+      },
+      "writtenOn": "2013-03-01T17:40:45Z",
+      "side": 1,
+      "message": "I would be very grateful to check this translation is the only one where I hesitated a bit.",
+      "revId": "7c9e4c36ae48c738ba0efcb6d98812ce310a743b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
