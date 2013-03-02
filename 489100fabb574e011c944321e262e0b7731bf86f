@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdX//5Z0\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-03-02T16:06:25Z",
+      "side": 1,
+      "message": "If AOSP set it to 2010, it must be 2010...",
+      "revId": "489100fabb574e011c944321e262e0b7731bf86f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
