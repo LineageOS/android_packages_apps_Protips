@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeH///9c\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-04T17:31:30Z",
+      "side": 1,
+      "message": "\u003citem\u003e\"Nightly Builds (Avancé)\"\\n\" Disponible sur ROM Manager. Ne soumettez pas de questions sur Google Code lorsque vous les utilisez. @drawable/rommanager\"\u003c/item\u003e",
+      "revId": "1dbaf45d80093be73f3042577b92affc4a872bb1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeH///9g\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-04T17:31:30Z",
+      "side": 1,
+      "message": "seem a bit better :\n    \u003citem\u003e\"N\\\u0027écoutez pas le Dr Kmobs\"\\n\" Ce n\\\u0027est pas un vrai médecin, et ceci n\\\u0027est pas un thermomètre. @drawable/stethoscope\"\u003c/item\u003e",
+      "revId": "1dbaf45d80093be73f3042577b92affc4a872bb1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeH///9k\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-04T17:31:30Z",
+      "side": 1,
+      "message": "seem a bit better :\n\u003citem\u003e\"Pic de Ballmer\"\\n\" La capacité optimale pour programmer se manifeste avec un taux d\u0027alcoolémie compris entre 0,129 et 0,138.\"\u003c/item\u003e",
+      "revId": "1dbaf45d80093be73f3042577b92affc4a872bb1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeH///9o\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-04T17:31:30Z",
+      "side": 1,
+      "message": "seem a bit better but not perfect ... \n\u003citem\u003e\"Kang [kayng]\\u00A0-\\u00A0(verbe)\"\\n\" J\\\u0027ai mis à jour WinZip br0. Merci à ma patiente femme de m\\\u0027avoir supporté avec mon devvin. @drawable/kang_truck\"\u003c/item\u003e",
+      "revId": "1dbaf45d80093be73f3042577b92affc4a872bb1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeH///9s\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-04T17:31:30Z",
+      "side": 1,
+      "message": "it seem to be a better translation.\n\u003citem\u003e\"Rôti de chat\"\\n\" Toujours tenir vos appareils électroniques éloignés des chats, les chats sont capables de faire pipi dessus. @drawable/cat_attack\"\u003c/item\u003e",
+      "revId": "1dbaf45d80093be73f3042577b92affc4a872bb1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
