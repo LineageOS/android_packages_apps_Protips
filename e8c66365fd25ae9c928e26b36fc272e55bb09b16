@@ -45,6 +45,30 @@
       "revId": "e8c66365fd25ae9c928e26b36fc272e55bb09b16",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_6ac2cfeb",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-08-11T20:20:56Z",
+      "side": 1,
+      "message": "Yeah, we need to scale this to Jef\u0027s inability to drink.",
+      "parentUuid": "3fa7e38b_ca8983ca",
+      "range": {
+        "startLine": 61,
+        "startChar": 57,
+        "endLine": 61,
+        "endChar": 77
+      },
+      "revId": "e8c66365fd25ae9c928e26b36fc272e55bb09b16",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
