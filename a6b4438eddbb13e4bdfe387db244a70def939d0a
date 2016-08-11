@@ -143,6 +143,23 @@
     },
     {
       "key": {
+        "uuid": "3fa7e38b_8a938bfa",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-08-11T20:19:38Z",
+      "side": 1,
+      "message": "True story",
+      "revId": "a6b4438eddbb13e4bdfe387db244a70def939d0a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3fa7e38b_cadbc3ea",
         "filename": "res/values/arrays.xml",
         "patchSetId": 1
