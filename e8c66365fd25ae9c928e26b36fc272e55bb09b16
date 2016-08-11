@@ -186,6 +186,30 @@
       "revId": "e8c66365fd25ae9c928e26b36fc272e55bb09b16",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_4a4d9398",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-08-11T20:33:51Z",
+      "side": 1,
+      "message": "THE FIRST RULE OF MADA IS YOU DO NOT TALK ABOUT MADA",
+      "parentUuid": "3fa7e38b_cab2e394",
+      "range": {
+        "startLine": 86,
+        "startChar": 12,
+        "endLine": 86,
+        "endChar": 118
+      },
+      "revId": "e8c66365fd25ae9c928e26b36fc272e55bb09b16",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
