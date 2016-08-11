@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_2aa37751",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 151
+      },
+      "writtenOn": "2016-08-11T20:18:59Z",
+      "side": 1,
+      "message": "+1 Verified",
+      "range": {
+        "startLine": 53,
+        "startChar": 33,
+        "endLine": 53,
+        "endChar": 62
+      },
+      "revId": "e8c66365fd25ae9c928e26b36fc272e55bb09b16",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_ca8983ca",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 151
+      },
+      "writtenOn": "2016-08-11T20:18:59Z",
+      "side": 1,
+      "message": "Please allow variance for coder specific intakes.",
+      "range": {
+        "startLine": 61,
+        "startChar": 57,
+        "endLine": 61,
+        "endChar": 77
+      },
+      "revId": "e8c66365fd25ae9c928e26b36fc272e55bb09b16",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
