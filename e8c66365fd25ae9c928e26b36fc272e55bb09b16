@@ -143,6 +143,30 @@
     },
     {
       "key": {
+        "uuid": "3fa7e38b_6a35eff6",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 151
+      },
+      "writtenOn": "2016-08-11T20:46:01Z",
+      "side": 1,
+      "message": "For varying definitions of inability.\n\nReally, this entire thing needs variance. Does Java allow this? Or does everything have to be \"public static int cantchange\"?",
+      "parentUuid": "3fa7e38b_6ac2cfeb",
+      "range": {
+        "startLine": 61,
+        "startChar": 57,
+        "endLine": 61,
+        "endChar": 77
+      },
+      "revId": "e8c66365fd25ae9c928e26b36fc272e55bb09b16",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3fa7e38b_4a64b322",
         "filename": "res/values/arrays.xml",
         "patchSetId": 3
