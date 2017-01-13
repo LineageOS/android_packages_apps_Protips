@@ -18,12 +18,12 @@
     android:id="@+id/tip_bubble"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:layout_toLeftOf="@+id/bugdroid"
+    android:layout_toEndOf="@+id/bugdroid"
     android:layout_centerVertical="true"
     android:gravity="center_vertical|left"
     android:layout_marginRight="2dip"
     android:visibility="invisible"
-    android:background="@drawable/droid_widget"
+    android:paddingRight="8dp"
     android:focusable="true"
     >
     <TextView
@@ -82,4 +82,3 @@
         android:layout_marginTop="1dip"
         />
 </RelativeLayout>
-

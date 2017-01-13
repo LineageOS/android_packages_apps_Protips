@@ -10,6 +10,8 @@ LOCAL_PACKAGE_NAME := Protips
 
 LOCAL_SDK_VERSION := current
 
+LOCAL_AAPT_FLAGS += --rename-manifest-package org.lineageos.br0tips
+
 include $(BUILD_PACKAGE)
 
 # Use the following include to make our test apk.
