@@ -6,7 +6,7 @@
 
     <uses-sdk android:minSdkVersion="3" />
     <application android:label="@string/widget_name"
-            android:icon="@drawable/icon">
+            android:icon="@mipmap/ic_launcher">
         <receiver android:name=".ProtipWidget" android:label="@string/widget_name">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />

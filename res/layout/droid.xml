@@ -16,11 +16,13 @@
 
 <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/bugdroid"
-    android:src="@drawable/droidman_down_closed"
-    android:scaleType="center"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:src="@mipmap/ic_launcher"
+    android:layout_width="96dp"
+    android:layout_height="96dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
     android:layout_alignParentRight="true"
     android:layout_centerVertical="true"
+    android:adjustViewBounds="true"
+    android:scaleType="fitCenter"
     />
-

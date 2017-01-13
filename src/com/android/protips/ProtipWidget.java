@@ -53,9 +53,9 @@ public class ProtipWidget extends AppWidgetProvider {
         thr.start();
         mAsyncHandler = new Handler(thr.getLooper());
     }
-    
+
     // initial appearance: eyes closed, no bubble
-    private int mIconRes = R.drawable.droidman_open;
+    private int mIconRes = R.drawable.br0tips;
     private int mMessage = 0;
     private int mTipSet = 0;
 
@@ -74,7 +74,7 @@ public class ProtipWidget extends AppWidgetProvider {
         mMessage = pref.getInt(PREFS_TIP_NUMBER, 0);
         mTipSet = pref.getInt(PREFS_TIP_SET, 0);
 
-        mTips = context.getResources().getTextArray(mTipSet == 1 ? R.array.tips2 : R.array.tips);
+        mTips = context.getResources().getTextArray(mTipSet == 1 ? R.array.br0tips : R.array.tips);
 
         if (mTips != null) {
             if (mMessage >= mTips.length) mMessage = 0;
@@ -86,18 +86,18 @@ public class ProtipWidget extends AppWidgetProvider {
     public void goodmorning() {
         mMessage = -1;
         try {
-            setIcon(R.drawable.droidman_down_closed);
+            setIcon(R.drawable.br0tips);
             Thread.sleep(500);
-            setIcon(R.drawable.droidman_down_open);
+            setIcon(R.drawable.br0tips);
             Thread.sleep(200);
-            setIcon(R.drawable.droidman_down_closed);
+            setIcon(R.drawable.br0tips);
             Thread.sleep(100);
-            setIcon(R.drawable.droidman_down_open);
+            setIcon(R.drawable.br0tips);
             Thread.sleep(600);
         } catch (InterruptedException ex) {
         }
         mMessage = 0;
-        mIconRes = R.drawable.droidman_open;
+        mIconRes = R.drawable.br0tips;
         refresh();
     }
 
@@ -113,12 +113,12 @@ public class ProtipWidget extends AppWidgetProvider {
         };
         mAsyncHandler.post(worker);
     }
-    
+
     void onReceiveAsync(Context context, Intent intent) {
         setup(context);
 
         Resources res = mContext.getResources();
-        mTips = res.getTextArray(mTipSet == 1 ? R.array.tips2 : R.array.tips);
+        mTips = res.getTextArray(mTipSet == 1 ? R.array.br0tips : R.array.tips);
 
         if (intent.getAction().equals(ACTION_NEXT_TIP)) {
             mMessage = getNextMessageIndex();
@@ -144,13 +144,13 @@ public class ProtipWidget extends AppWidgetProvider {
                 new Intent(Intent.ACTION_MAIN)
                     .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TOP)
                     .addCategory(Intent.CATEGORY_HOME));
-            
+
             final Intent bcast = new Intent(context, ProtipWidget.class);
             bcast.setAction(ACTION_POKE);
             bcast.putExtra(EXTRA_TIMES, 3);
             mContext.sendBroadcast(bcast);
         } else {
-            mIconRes = R.drawable.droidman_open;
+            mIconRes = R.drawable.br0tips;
             refresh();
         }
     }
@@ -175,17 +175,17 @@ public class ProtipWidget extends AppWidgetProvider {
         // don't blink if no bubble showing or if goodmorning() is happening
         if (mMessage < 0) return;
 
-        setIcon(R.drawable.droidman_closed);
+        setIcon(R.drawable.br0tips);
         try {
             Thread.sleep(100);
             while (0<--blinks) {
-                setIcon(R.drawable.droidman_open);
+                setIcon(R.drawable.br0tips);
                 Thread.sleep(200);
-                setIcon(R.drawable.droidman_closed);
+                setIcon(R.drawable.br0tips);
                 Thread.sleep(100);
             }
         } catch (InterruptedException ex) { }
-        setIcon(R.drawable.droidman_open);
+        setIcon(R.drawable.br0tips);
     }
 
     public RemoteViews buildUpdate(Context context) {
@@ -228,11 +228,11 @@ public class ProtipWidget extends AppWidgetProvider {
                 updateViews.setViewVisibility(R.id.tip_callout, View.GONE);
             }
 
-            updateViews.setTextViewText(R.id.tip_message, 
+            updateViews.setTextViewText(R.id.tip_message,
                 text);
             updateViews.setTextViewText(R.id.tip_header,
                 title);
-            updateViews.setTextViewText(R.id.tip_footer, 
+            updateViews.setTextViewText(R.id.tip_footer,
                 context.getResources().getString(
                     R.string.pager_footer,
                     (1+mMessage), mTips.length));
