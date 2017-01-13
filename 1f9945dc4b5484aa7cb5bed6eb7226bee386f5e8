@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_456e2acb",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-01-13T22:29:30Z",
+      "side": 1,
+      "message": "add copyright",
+      "revId": "1f9945dc4b5484aa7cb5bed6eb7226bee386f5e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_056822b9",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-01-13T22:29:30Z",
+      "side": 1,
+      "message": "dito",
+      "revId": "1f9945dc4b5484aa7cb5bed6eb7226bee386f5e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_e564fee6",
+        "filename": "res/xml/widget_build.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-01-13T22:29:30Z",
+      "side": 1,
+      "message": "dito",
+      "revId": "1f9945dc4b5484aa7cb5bed6eb7226bee386f5e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_c561fad4",
+        "filename": "src/com/android/protips/ProtipWidget.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-01-13T22:29:30Z",
+      "side": 1,
+      "message": "dito",
+      "revId": "1f9945dc4b5484aa7cb5bed6eb7226bee386f5e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
